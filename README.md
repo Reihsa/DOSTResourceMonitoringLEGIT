@@ -11,7 +11,7 @@ This update adds a new electricity consumption upload feature, including API int
 ### 1. Backend / API
 
 - **auth.js**
-  - Added export statement to expose JWT authentication function:
+  - Added export statement to expose JWT authentication function: (Can be change if needed)
     ```js
     export { authenticateJWT };
     ```
