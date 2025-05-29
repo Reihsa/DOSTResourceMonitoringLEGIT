@@ -42,6 +42,8 @@ This update adds a new electricity consumption upload feature, including API int
 - **app.jsx**
   - Added conditional rendering for user role dashboard:
     ```jsx
+    import UserDashboard from './components/UserDashboard.jsx'; //Import for User Dashboard
+
     {role === 'user' && (
       <div>
         <UserDashboard />
